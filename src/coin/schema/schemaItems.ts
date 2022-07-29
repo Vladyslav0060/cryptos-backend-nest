@@ -1,0 +1,25 @@
+const assetsItemsProps = {
+  id: { type: 'string' },
+  symbol: { type: 'string' },
+  name: { type: 'string' },
+  image: { type: 'string' },
+  current_price: { type: 'number' },
+  market_cap: { type: 'number' },
+  market_cap_rank: { type: 'number' },
+  total_volume: { type: 'number' },
+  high_24h: { type: 'number' },
+  low_24h: { type: 'number' },
+  price_change_24h: { type: 'number' },
+  price_change_percentage_24h: { type: 'number' },
+  market_cap_change_24h: { type: 'number' },
+  market_cap_change_percentage_24h: { type: 'number' },
+  circulating_supply: { type: 'number' },
+  ath: { type: 'number' },
+  ath_change_percentage: { type: 'number' },
+  atl: { type: 'number' },
+  atl_change_percentage: { type: 'number' },
+  atl_date: { type: 'string' },
+  last_updated: { type: 'string' },
+};
+
+export default { assetsItemsProps };
